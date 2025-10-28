@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "Etna";
+  src: url("fonts/Etna.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  margin-top: 4em;
+  font-family: "Etna", sans-serif;
+  font-size: 1em;
+  background-color: #ffa3cb;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  background-color: #ffe2ef;
+  border-width: 1px;
+  border-style: solid;
+  z-index: 100;
+}
+.navbar1 {
+  margin: 1em;
+  flex: 1;
+  display: flex;
+  justify-content: start;
+  column-gap: 1em;
+  align-items: center;
+}
+.navbar2 {
+  margin: 1em;
+  flex: 1;
+  display: flex;
+  justify-content: end;
+  column-gap: 1em;
+  align-items: center;
+}
+
+.logoimg {
+  height: 3em;
+  width: 3em;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.item5 {
+  margin-right: 6em;
+}
+
+.item6 img {
+  height: 2.3em;
+  width: 2.3em;
+  object-fit: cover;
+  vertical-align: middle;
+}
+.item6 button {
+  padding: 0.3em 0.3em;
+  border-color: black;
+  border-radius: 2em;
+  border-style: solid;
+  background-color: black;
+}
+
+.item7 img {
+  height: 2.1em;
+  width: 2.1em;
+  object-fit: cover;
+  vertical-align: middle;
+}
+.item7 button {
+  padding: 0.4em 0.4em;
+  border-color: black;
+  border-radius: 2em;
+  border-style: solid;
+  background-color: black;
+}
+
+.item8 img {
+  height: 2em;
+  width: 2em;
+  object-fit: cover;
+  vertical-align: middle;
+}
+.item8 button {
+  padding: 0.35em 0.35em;
+  border-color: black;
+  border-radius: 2em;
+  border-style: solid;
+  background-color: black;
+}
+
+.item9 img {
+  height: 2em;
+  width: 2em;
+  object-fit: cover;
+  vertical-align: middle;
+}
+.item9 button {
+  padding: 0.4em 0.4em;
+  border-color: black;
+  border-radius: 2em;
+  border-style: solid;
+  background-color: black;
+}
+
+.item10 button {
+  color: #fff4f8;
+  font-family: "Etna", sans-serif;
+  font-size: 1em;
+  padding: 0.7em;
+  vertical-align: middle;
+  border-color: black;
+  border-radius: 2em;
+  border-style: solid;
+  background-color: black;
+}

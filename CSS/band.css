@@ -1,0 +1,14 @@
+.band {
+  background-color: #ffe2ef;
+  height: 4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.band img {
+  width: 2.5em;
+}
